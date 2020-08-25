@@ -1,4 +1,4 @@
-import { getCurrentInstance, defineComponent, toRaw } from 'vue'
+import { getCurrentInstance, defineComponent } from 'vue'
 
 function def(obj: any, key: string, attrs: object) {
   Object.defineProperty(obj, key, {
