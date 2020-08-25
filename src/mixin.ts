@@ -15,7 +15,7 @@ function handlePolyfillProxy(
   const proxy = instance.proxy
   const getter = proxy['___@getter___']
   const setter = proxy['___@setter___']
-  const target = toRaw(proxy)
+  const target = instance.ctx
   if (getter) {
     props.forEach(prop => {
       Object.keys(prop).forEach(k => {
