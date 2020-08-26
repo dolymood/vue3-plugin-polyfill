@@ -1,0 +1,20 @@
+version: 2.1
+
+step_install_deps: &install_deps
+  run:
+    name: Install Dependencies
+    command: yarn --frozen-lockfile
+
+jobs:
+  test:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - *install_deps
+      - run: yarn test
+
+workflows:
+  node-tests:
+    jobs:
+      - test
