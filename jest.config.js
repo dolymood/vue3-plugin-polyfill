@@ -12,7 +12,4 @@ module.exports = {
   testMatch: ['<rootDir>/__tests__/**/*.spec.ts?(x)'],
   watchPathIgnorePatterns: ['<rootDir>/node_modules'],
   testEnvironment: 'jsdom',
-  moduleNameMapper: {
-    '^@vue/reactivity$': 'vue-reactivity-with-polyfill',
-  },
 }

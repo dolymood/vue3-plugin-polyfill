@@ -1,6 +1,7 @@
 import { mount } from '@vue/test-utils'
 import { PolyfillMixin } from '../src/mixin'
 import { h, defineComponent, ref, computed, watch, nextTick } from 'vue'
+import 'vue-reactivity-polyfill'
 import { mockWarn } from 'jest-mock-warn'
 
 const SetupComponent = defineComponent({
