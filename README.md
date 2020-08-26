@@ -1,4 +1,4 @@
-# vue3-plugin-polyfill
+# vue3-plugin-polyfill [![CircleCI](https://circleci.com/gh/dolymood/vue3-plugin-polyfill.svg?style=svg)](https://circleci.com/gh/dolymood/vue3-plugin-polyfill)
 
 Vue 3 Ployfill Plugin. Use [vue-reactivity-polyfill](https://github.com/dolymood/vue-reactivity-polyfill).
 
