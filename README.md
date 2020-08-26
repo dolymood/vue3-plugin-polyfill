@@ -2,6 +2,8 @@
 
 Vue 3 Ployfill Plugin. Use [vue-reactivity-polyfill](https://github.com/dolymood/vue-reactivity-polyfill).
 
+A full usage demo, [vue-next-demo](https://github.com/dolymood/vue-next-demo).
+
 ### Usage
 
 ```js
