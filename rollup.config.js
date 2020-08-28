@@ -1,6 +1,5 @@
 import path from 'path'
 import ts from 'rollup-plugin-typescript2'
-import alias from '@rollup/plugin-alias'
 import babel from '@rollup/plugin-babel'
 import replace from '@rollup/plugin-replace'
 import resolve from '@rollup/plugin-node-resolve'
@@ -98,7 +97,7 @@ function createConfig(format, output, plugins = []) {
 
   const extensions = ['.js', '.ts']
 
-  const external = ['vue', 'vue-reactivity-with-polyfill']
+  const external = ['vue']
 
   if (isBundlerESMBuild || isNodeBuild) {
     external.push('@vue/shared', /@babel\/runtime/, /core-js/)
@@ -117,14 +116,6 @@ function createConfig(format, output, plugins = []) {
     external,
     plugins: [
       tsPlugin,
-      alias({
-        entries: [
-          {
-            find: '@vue/reactivity',
-            replacement: 'vue-reactivity-with-polyfill',
-          },
-        ],
-      }),
       createReplacePlugin(
         isProductionBuild,
         isBundlerESMBuild,
