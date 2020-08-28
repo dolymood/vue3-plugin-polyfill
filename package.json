@@ -1,6 +1,6 @@
 {
   "name": "vue3-plugin-polyfill",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/vue3-plugin-polyfill.cjs.js",
   "browser": "dist/vue3-plugin-polyfill.esm.js",
   "unpkg": "dist/vue3-plugin-polyfill.global.js",

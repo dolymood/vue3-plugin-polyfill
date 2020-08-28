@@ -1,4 +1,14 @@
+## [0.0.4](https://github.com/dolymood/vue3-plugin-polyfill/compare/v0.0.3...v0.0.4) (2020-08-28)
+
+### Bug Fixes
+
+- fix (c) ([ca12c03](https://github.com/dolymood/vue3-plugin-polyfill/commit/ca12c03dafaba09acae5cc60903268b9bd0c22c0))
+
 ## [0.0.3](https://github.com/dolymood/vue3-plugin-polyfill/compare/v0.0.2...v0.0.3) (2020-08-26)
+
+### Features
+
+- Use vue-reactivity-polyfill
 
 ## [0.0.2](https://github.com/dolymood/vue3-plugin-polyfill/compare/v0.0.1...v0.0.2) (2020-08-25)
 
