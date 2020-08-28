@@ -11,7 +11,7 @@ const name = pkg.name
 
 const banner = `/*!
   * ${pkg.name} v${pkg.version}
-  * (c) ${new Date().getFullYear()} Eduardo San Martin Morote
+  * (c) ${new Date().getFullYear()} doly mood
   * @license MIT
   */`
 
