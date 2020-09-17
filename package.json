@@ -1,6 +1,6 @@
 {
   "name": "vue3-plugin-polyfill",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "dist/vue3-plugin-polyfill.cjs.js",
   "browser": "dist/vue3-plugin-polyfill.esm.js",
   "unpkg": "dist/vue3-plugin-polyfill.global.js",
@@ -38,7 +38,7 @@
   },
   "peerDependencies": {
     "vue": "^3",
-    "vue-reactivity-polyfill": "0.x"
+    "vue-reactivity-polyfill": ">=0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
@@ -71,7 +71,7 @@
     "typescript": "^3.9.7",
     "vue": "^3.0.0-rc.12",
     "vue-loader": "^16.0.0-beta.5",
-    "vue-reactivity-polyfill": "^0.0.4",
+    "vue-reactivity-polyfill": "^0.1.0",
     "yorkie": "^2.0.0"
   }
 }

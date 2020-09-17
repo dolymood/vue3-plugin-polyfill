@@ -6305,10 +6305,10 @@ vue-loader@^16.0.0-beta.5:
     merge-source-map "^1.1.0"
     source-map "^0.6.1"
 
-vue-reactivity-polyfill@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/vue-reactivity-polyfill/-/vue-reactivity-polyfill-0.0.4.tgz#7e38b2f2732eef9d2fdce61081465f4855924c0d"
-  integrity sha512-7yVoYRbq4MGYwAstQzIy93kwJYjr2660qklS9XgHcp/U90pxkoBI3eh29FN4iHlwBxWSoxBH4nhHemTRxKq57Q==
+vue-reactivity-polyfill@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vue-reactivity-polyfill/-/vue-reactivity-polyfill-0.1.0.tgz#41014089936406df169acdc6faf80f944b3fcebd"
+  integrity sha512-Z5P5dFrdYywzCxSUhSDIkUdDlZTZaQpY1wXGsZgrkJRFZZH84S1laKW7skFVlkFhoeQSZ7XW6wK6SqYTm26dCg==
   dependencies:
     patch-package "^6.2.2"
     proxy-polyfill "^0.3.2"
