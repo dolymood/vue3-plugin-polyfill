@@ -1,3 +1,10 @@
+# [0.1.0](https://github.com/dolymood/vue3-plugin-polyfill/compare/v0.0.4...v0.1.0) (2020-09-17)
+
+### Bug Fixes
+
+- peer deps ([b44286d](https://github.com/dolymood/vue3-plugin-polyfill/commit/b44286d5658aef13038047f49e7a04dd4174b2e3))
+- vue-reactivity to 0.1 ([edb2a74](https://github.com/dolymood/vue3-plugin-polyfill/commit/edb2a74aa89da644c99bd26d893f0a2a482b8395))
+
 ## [0.0.4](https://github.com/dolymood/vue3-plugin-polyfill/compare/v0.0.3...v0.0.4) (2020-08-28)
 
 ### Bug Fixes
