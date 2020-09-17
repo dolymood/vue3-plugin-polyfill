@@ -6305,6 +6305,11 @@ vue-loader@^16.0.0-beta.5:
     merge-source-map "^1.1.0"
     source-map "^0.6.1"
 
+vue-reactivity-polyfill-getownpropertynames@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/vue-reactivity-polyfill-getownpropertynames/-/vue-reactivity-polyfill-getownpropertynames-0.0.1.tgz#f773dbcbb5926dad6e41c8faed2c629f64561cb4"
+  integrity sha512-b9vgJ77H20tYzFvXJdAkpgMQDf1TD5pt1TOGgG4iDF+WJXxMKbqqVpq+O9DQxZh4l0jVxFGDN3kKTG1w1bxaqw==
+
 vue-reactivity-polyfill@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/vue-reactivity-polyfill/-/vue-reactivity-polyfill-0.1.0.tgz#41014089936406df169acdc6faf80f944b3fcebd"
